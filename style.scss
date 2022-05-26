@@ -1,0 +1,56 @@
+@import "./variables";
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: $backgroundColor;
+    @include flexCenter();
+     .foto {
+        border-radius: 50%;
+        width: 30%;
+        border: 8px solid #ddd;
+        border-color: white;
+        margin-left: 130px;
+        margin-top: -60px;
+        
+        
+     }
+     .kader {
+         border-radius: 10%;
+        background-color: white;
+        height: 400px;
+       width: 400px;
+     }
+     footer {
+     background-color: #686de0;
+     border-bottom-left-radius: 10%;
+     border-bottom-right-radius: 10%;
+     height: 250px;
+      width: 400px;
+     }
+     p {
+         font-size: large;
+         margin-left: 50px;
+         margin-right: 50px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-weight: $font-weight
+     }
+     .prime {
+        @include flexCenter();
+        font-size: xx-large;
+         color: white;
+         font-weight: $font-weight;
+         
+
+     }
+     .website {
+        @include flexCenter();
+        font-size: x-large;
+         color: #313799;
+         font-weight: $font-weight;
+         
+     }
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: $backgroundColor;
+    @include flexCenter();
+     .fotokader {
+         background-color: white;
+        border-radius: 50%;
+        position: absolute; top: 195px; left: 1210px;
+        width: 100px; height: 125x;
+     }
+     .foto {
+        height: 130px;
+        width: 130px;
+        transform: translate(-35px, -3px);
+     }
+     .kader {
+         border-radius: 10%;
+        background-color: white;
+        height: 400px;
+       width: 400px;
+     }
+     footer {
+     background-color: #686de0;
+     border-bottom-left-radius: 10%;
+     border-bottom-right-radius: 10%;
+     height: 250px;
+      width: 400px;
+     }
+     p {
+         font-size: large;
+         margin-left: 50px;
+         margin-right: 50px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-weight: $font-weight
+     }
+     .prime {
+        @include flexCenter();
+        font-size: xx-large;
+         color: white;
+         font-weight: $font-weight;
+
+     }
+     .website {
+        @include flexCenter();
+        font-size: x-large;
+         color: #313799;
+         font-weight: $font-weight;
+     }
+}
